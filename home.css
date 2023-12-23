@@ -1,0 +1,226 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/library-interior-empty-room-reading-with-books-wooden-shelves_33099-1722.jpg?size=626&ext=jpg&ga=GA1.1.374297284.1689593794&semt=ais);
+    /* background-color: rgba(201, 201, 201, 0.603); */
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-frame{
+ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height:70px;
+}
+.top-frame img{
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    
+}
+.top-frame #text{
+    background-color: rgba(1, 250, 92, 0.425);
+text-align: center;
+/* padding-top: 35px; */
+border-radius: 10px;
+border: 3px solid rgb(245, 237, 237);
+height: 70px;
+width:350px;
+margin-left: 90px;
+}
+.top-frame #text a {
+    text-decoration: none;
+}
+.top-frame #text h1{
+    color: rgb(51, 24, 114);  
+}.top-frame #search{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.top-frame #search input{
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    font-size:smaller;
+    height: 25px;
+}
+.nav ul li  :hover{
+    font-size: x-large;
+    color: black;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(235, 132, 101); 
+ border: 5px solid rgb(248, 239, 239);
+border-radius: 35px;
+padding: 10px;
+    list-style: none;
+    margin-left: 150px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 251, 253);
+    font-family: cursive;
+    font-weight: 600;  
+    border-radius: 10px;
+   
+
+
+  
+}
+.para {
+    float: left;
+    margin: 100px;
+    border: 4px solid black;
+    padding : 10px;
+    width: 500px ;
+    font-weight: 700;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 17, 255);
+    background-color: rgba(250, 235, 215, 0.431);
+    border-radius: 20px;
+}
+.login{
+    border: 5px solid black;
+    text-align: center;
+    background-color: rgba(247, 137, 94, 0.527);
+    width: 450px;
+    float: right;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.login input{
+
+    background:transparent;
+outline: none;
+ border-right: none;
+ border-top:none;
+border-left: none;
+text-align: center;
+color: rgb(13, 13, 14);
+
+}
+
+.login ::placeholder{
+    color: rgb(202, 202, 240);
+    font-size: small;
+}
+.login a {
+    color : rgb(240, 234, 234) ;
+    text-decoration: none; 
+}
+.Newsletter{
+    margin-top: 420px;
+   
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Newsletter h3{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 570px;
+    background-color: beige;
+border-radius: 10px;
+    
+}
+.Newsletter input{
+    width: 650px;
+    border-radius: 10px;
+    height: 25px;
+    margin-left: 400px;
+    text-align: center;
+}
+.Newsletter input::placeholder{
+    text-align: center;
+    color: rgb(82, 80, 80);
+}
+.Newsletter #button1 input {
+    width:100px;
+    margin-top: 10px;
+    margin-left: 680px;
+}
+.mar{
+    color: white;
+    font-size: x-large;
+   font-style:oblique;
+  
+}
+.mar #color{
+    color: rgb(77, 228, 255);
+}
+footer .texts{
+    margin-top: 120px;
+    background-color: rgba(83, 82, 5, 0.835);
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+}
+footer #company{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+footer #Policies{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+footer #Help{
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+footer #logos{
+  margin-top: 1170px;
+    display: flex;
+    top: 50px;background-color: rgb(102, 103, 104);
+    height: 70px;
+    position: absolute;
+left: 0px;
+width: 100%;
+bottom: 0px;
+}
+footer #social  h1{
+   position: absolute;
+   left: 650px;
+  
+   color: white;
+   height: 10px;
+   top: 1150px;
+}
+footer #social hr{
+   position: absolute;
+   
+  
+   color: white;
+ 
+   top: 1150px;
+}
+
+footer #logos #img1 img{
+    padding: 10px;
+    width: 50px;
+    border-radius: 150px;
+    margin-left: 300px;
+}
+footer #logos p{
+    width: 250px;
+    margin-left: 250px;
+}
+footer #logos #img2 img{
+    padding: 10px;
+
+    width: 50px;
+    border-radius: 150px;
+    margin-left: 250px;
+}
+
